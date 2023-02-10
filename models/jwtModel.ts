@@ -6,7 +6,7 @@ export const jwtSchema = new Schema({
     },
     timestamp: {
         type: Date
-    },
+    },   
     username: { type: String, unique: true, required: true }
 })
 
